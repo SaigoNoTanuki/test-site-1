@@ -6,13 +6,46 @@
     <title>Entrance</title>
     <link rel="stylesheet" href=".\css\entrance.css">
 </head>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <body>
-    <h1>Welcome!</h1>
+    <div id="particles-js"></div>
+
+    <h1 id="welcome">Welcome!</h1>
 
         <button id="button"  id="link to thing">Enter</button>
 
     <video id="loading" src=".\media\ado-utaite.mp4"></video>
 
     <script src=".\js\index.js"></script>
+
+    <script>
+  particlesJS("particles-js", {
+    "particles": {
+      "number": { "value": 80 },
+      "size": { "value": 3 },
+      "move": {
+        "enable": true,
+        "speed": 5,
+        "direction": "none",
+        "out_mode": "out"
+      },
+      "line_linked": {
+        "enable": true,
+        "distance": 150,
+        "color": "#ffffff",
+        "opacity": 0.4,
+        "width": 1
+      },
+      "color": { "value": "#ffffff" }
+    },
+    "interactivity": {
+      "events": {
+        "onhover": { "enable": true, "mode": "repulse" },
+        "onclick": { "enable": true, "mode": "push" }
+      }
+    }
+  });
+</script>
+
 </body>
 </html>
