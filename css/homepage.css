@@ -15,7 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
-    font-size: 4.63vh;
+    font-size: 4.63vh, 2.6vw;
     color: black;
     margin: 5px;
 }
