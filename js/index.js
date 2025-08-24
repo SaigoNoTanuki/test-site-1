@@ -24,5 +24,6 @@ button.addEventListener("click", () => {
     video.onended = () => {
         window.location.href = "./pages/homepage.html";
         video.style.display = "none";
+        button.style.display = "block";
     };
 });
